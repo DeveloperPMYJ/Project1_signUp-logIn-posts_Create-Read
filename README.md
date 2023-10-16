@@ -1,8 +1,9 @@
 # project1 with Threads Service 
 - initial setting 
 - signup login with hashed password(bcrypt), creating token after login.
-- basic posts with Create & Read.
-- layered: userServices, postServices, app.js) 
+- basic posts with Create & Read
+- verifying token when creating posts from requests' headers' authorization 
+- basic layered: userServices, postServices, app.js
 
 A. 초기 세팅 
 

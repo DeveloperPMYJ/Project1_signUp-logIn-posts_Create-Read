@@ -1,7 +1,9 @@
 const http = require("http");
 const express = require("express");
 const cors = require("cors");
-// const jwt = require("jsonwebtoken");
+const jwt = require("jsonwebtoken");
+const bcrypt = require('bcrypt');
+
 const { signUp, logIn, getUsers } = require("./Services/userServices");
 const { readThreads, createThreads } = require("./Services/postService");
 
